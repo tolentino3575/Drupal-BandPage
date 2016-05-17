@@ -14,15 +14,15 @@ You will need the following things properly installed on your computer:<br>
 • [MAMP] (https://www.mamp.info/en/)
 
 ##Log-In
-• Database Name: 'project' (file will be 'project.sql.zip')<br>
+• Database Name: 'band' (file will be 'project.sql.zip')<br>
 • PhpMyAdmin user: '<em>BandManager</em>' password: '<em>password</em>'<br>
 • Site Maintenance Account: '<em>BandManager</em>' password: '<em>password</em>'<br>
 
 ## Setup/Installation Requirements
 
 1. Open Terminal and clone this repository: https://github.com/tolentino3575/Drupal-BandPage.git
-2. In your browser navigate to ```http://localhost:8888/phpmyadmin```. Select the Import tab and in the project directory go to ```sites > db-backups > databasename.sql.zip``` and click GO at the bottom of your screen
-3. Also in phpmyadmin, recreate the user you created initially in the database (the username and password can be found in the settings.php file)
+2. In your browser navigate to ```http://localhost:8888/phpmyadmin```. Select the Import tab and the database will be in the root directory of the folder ```Drupal-BandPage > db-backups > band.sql.zip``` and click GO at the bottom of your screen
+3. Also in phpmyadmin, add the user by clicking on the priveleges tab
 4. Open MAMP, select ```Preferences```, select ```Web Server``` tab, direct the ```Document Root``` to the top level of your project folder
 5. Navigate the browser to ```http://localhost:8888``` 
 
